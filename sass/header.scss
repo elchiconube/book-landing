@@ -1,0 +1,15 @@
+.main__header {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        a{
+            font-family: "Montserrat", sans-serif;
+            padding: 10px 20px;
+            display: inline-block;
+            color:#38414b;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    
+    }
+}

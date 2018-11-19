@@ -1,0 +1,88 @@
+.info {
+    width: 49%;
+    color: #fff;
+    position: relative;
+    opacity: 0;
+    animation: slideRight 600ms ease-in-out both;
+
+
+
+    h5{
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    h3{
+        font-size: 37px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        animation: bounceInRight 1s 1s both;
+    }
+
+    ul{
+        margin: 40px 0;
+
+        li {
+            padding: 5px 0;
+            margin-bottom: 30px;
+            line-height: 18px;
+
+            svg {
+                fill: #fff;
+                position: relative;
+                top: -2px;
+                margin-right: 5px;
+                float: left;
+            }
+        
+        }
+    }
+
+}
+
+@keyframes slideRight {
+    0% { 
+        opacity: 0;
+        transform:translate(100%, 0);
+    }
+    100% { 
+        opacity: 1;
+        transform:translate(0, 0);
+    }
+}
+
+
+
+@keyframes bounceInRight{
+    0%,60%,75%,90%,to{
+        animation-timing-function:cubic-bezier(.215,.61,.355,1)
+    }
+    0%{
+        opacity:0;
+        transform:translate3d(3000px,0,0)
+    }
+    60%{
+        opacity:1;
+        transform:translate3d(-25px,0,0)
+    }
+    75%{
+        transform:translate3d(10px,0,0)
+    }
+    90%{
+        transform:translate3d(-5px,0,0)
+    }
+    to{
+        transform:none
+    }
+}
+
+

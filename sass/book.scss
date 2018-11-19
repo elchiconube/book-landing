@@ -1,0 +1,17 @@
+/**
+ * Here we add all the SASS files that will be
+ * compiled at: /css/style.css.
+ */
+
+/**
+* Components
+**/
+@import "reset.scss";
+@import "fonts.scss";
+@import "global.scss";
+@import "hero__header.scss";
+@import "particles.scss";
+@import "cover.scss";
+@import "info.scss";
+@import "author.scss";
+@import "footer.scss";
